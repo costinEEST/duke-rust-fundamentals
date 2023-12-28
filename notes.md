@@ -1,28 +1,8 @@
 # CLI
 
-- ```bash
-  cat /etc/os-release
-  ```
-
-PRETTY_NAME="Debian GNU/Linux 11 (bullseye)"
-NAME="Debian GNU/Linux"
-VERSION_ID="11"
-VERSION="11 (bullseye)"
-VERSION_CODENAME=bullseye
-ID=debian
-HOME_URL="https://www.debian.org/"
-SUPPORT_URL="https://www.debian.org/support"
-BUG_REPORT_URL="https://bugs.debian.org/"
-
-````
-
-- ```bash
-free -m
-
-               total        used        free      shared  buff/cache   available
-Mem:            7929        2775         146           1        5007        4837
-Swap:              0           0           0
-````
+- `cat /etc/os-release`
+- `free -m`
+- `which cargo`
 
 # Docs
 
@@ -40,3 +20,7 @@ Swap:              0           0           0
 - https://techcommunity.microsoft.com/t5/educator-developer-blog/how-to-optimize-your-codespaces-pro-tips-for-managing-quotas/ba-p/3712032
 - https://code.visualstudio.com/docs/languages/rust
 - https://code.visualstudio.com/docs/editor/settings-sync
+
+```
+
+```
