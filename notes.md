@@ -3,6 +3,8 @@
 - `cat /etc/os-release`
 - `free -m`
 - `which cargo`
+- `cargo init .`
+- `tree`
 
 # Docs
 
