@@ -5,6 +5,7 @@
 - `which cargo`
 - `cargo init .`
 - `tree`
+- `cargo init --lib`
 
 # Docs
 
@@ -22,7 +23,3 @@
 - https://techcommunity.microsoft.com/t5/educator-developer-blog/how-to-optimize-your-codespaces-pro-tips-for-managing-quotas/ba-p/3712032
 - https://code.visualstudio.com/docs/languages/rust
 - https://code.visualstudio.com/docs/editor/settings-sync
-
-```
-
-```
