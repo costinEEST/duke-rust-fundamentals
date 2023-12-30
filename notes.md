@@ -27,3 +27,4 @@
 - https://learn.microsoft.com/en-us/training/modules/rust-introduction
 - https://doc.rust-lang.org/std/iter/trait.Iterator.html#method.for_each
 - https://doc.rust-lang.org/std/iter/trait.Iterator.html#method.step_by
+- https://rust-book.cs.brown.edu/ch03-05-control-flow.html#using-if-in-a-let-statement
