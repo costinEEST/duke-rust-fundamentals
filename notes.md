@@ -25,3 +25,5 @@
 - https://code.visualstudio.com/docs/editor/settings-sync
 - https://learn.microsoft.com/en-us/training/modules/rust-set-up-environment 
 - https://learn.microsoft.com/en-us/training/modules/rust-introduction
+- https://doc.rust-lang.org/std/iter/trait.Iterator.html#method.for_each
+- https://doc.rust-lang.org/std/iter/trait.Iterator.html#method.step_by
