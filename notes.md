@@ -3,9 +3,9 @@
 - `cat /etc/os-release`
 - `free -m`
 - `which cargo`
-- `cargo init .`
+- `cargo init .` creates the application in the current directory using the name of the directory for the application's name.
 - `tree`
-- `cargo init --lib`
+- `cargo init --lib` creates a library instead of an application.
 
 # Docs
 
@@ -23,3 +23,5 @@
 - https://techcommunity.microsoft.com/t5/educator-developer-blog/how-to-optimize-your-codespaces-pro-tips-for-managing-quotas/ba-p/3712032
 - https://code.visualstudio.com/docs/languages/rust
 - https://code.visualstudio.com/docs/editor/settings-sync
+- https://learn.microsoft.com/en-us/training/modules/rust-set-up-environment 
+- https://learn.microsoft.com/en-us/training/modules/rust-introduction
