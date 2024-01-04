@@ -33,3 +33,11 @@
   - https://learn.microsoft.com/en-us/training/modules/rust-if-else-expressions
   - https://learn.microsoft.com/en-us/training/modules/rust-create-program
   - https://learn.microsoft.com/en-us/training/modules/rust-memory-management
+- https://github.com/alfredodeza/rust-template
+- https://doc.rust-lang.org/rust-by-example/std_misc/arg.html
+- https://github.com/alfredodeza/rust-fundamentals/blob/main/examples/16-error-handling/error-handling/src/main.rs
+- https://doc.rust-lang.org/nightly/std/env/fn.args.html
+- https://doc.rust-lang.org/nightly/std/io/struct.Error.html
+- https://doc.rust-lang.org/nightly/std/io/struct.Error.html#method.new
+- https://doc.rust-lang.org/nightly/std/io/enum.ErrorKind.html
+- https://doc.rust-lang.org/nightly/std/fs/fn.read_to_string.html
