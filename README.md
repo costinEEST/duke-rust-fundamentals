@@ -41,6 +41,11 @@
 - https://doc.rust-lang.org/nightly/std/io/struct.Error.html#method.new
 - https://doc.rust-lang.org/nightly/std/io/enum.ErrorKind.html
 - https://doc.rust-lang.org/nightly/std/fs/fn.read_to_string.html
+- Use [`clone`](https://doc.rust-lang.org/nightly/core/clone/trait.Clone.html#tymethod.clone) when you have a [`String`](https://doc.rust-lang.org/std/string/struct.String.html) and you want to make a copy of it.
+- Use [`to_owned`](https://doc.rust-lang.org/std/borrow/trait.ToOwned.html#tymethod.to_owned) when you have a [`&str`](https://doc.rust-lang.org/std/primitive.str.html) and you want to create an owned [`String`](https://doc.rust-lang.org/std/string/struct.String.html) from it.
+- Use [`format!`](https://doc.rust-lang.org/std/macro.format.html) when you want to create a [`String`](https://doc.rust-lang.org/std/string/struct.String.html) with formatted text.
+- [`String`](https://doc.rust-lang.org/std/string/struct.String.html) is growable and mutable whereas [`&str`](https://doc.rust-lang.org/std/primitive.str.html) is not.
+- [`String`](https://doc.rust-lang.org/std/string/struct.String.html) is owned by the code that creates it.
 
 # Schedule 
 
