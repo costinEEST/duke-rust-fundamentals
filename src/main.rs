@@ -2,17 +2,22 @@
 // mod file_reader;
 // mod functions;
 // mod loops;
-mod strings;
+// mod strings;
 // mod structs;
+mod vectors;
 // use conditions::{conditional_operator_let_statement, if_else_statement};
 // use file_reader::read_from_file;
 // use functions::error_handling_match;
 // use loops::for_loop_with_range_and_step;
-use strings::{
-    concatenate_using_format, first_three_characters_from_sentence, loop_over_chars, print_string,
-    print_string_slice,
-};
+// use strings::{
+//     concatenate_using_format, first_three_characters_from_sentence, loop_over_chars, print_string,
+//     print_string_slice,
+// };
 // use structs::{Color, Person, User};
+use vectors::{
+    get_item, reversed_sentence, reversed_sentence_using_fold, reversed_string,
+    split_string_and_collect_vector,
+};
 
 fn main() {
     // conditional_operator_let_statement(2);
@@ -45,9 +50,15 @@ fn main() {
     // let orange = Color(255, 165, 0);
     // println!("Orange is {:?}", orange);
 
-    concatenate_using_format("What a beautiful day");
-    loop_over_chars("abracadabra");
-    print_string_slice("A string literal");
-    print_string(String::from("A UTF-8–encoded, growable string"));
-    first_three_characters_from_sentence("the quick brown fox");
+    // concatenate_using_format("What a beautiful day");
+    // loop_over_chars("abracadabra");
+    // print_string_slice("A string literal");
+    // print_string(String::from("A UTF-8–encoded, growable string"));
+    // first_three_characters_from_sentence("the quick brown fox");
+
+    let _ = get_item(4);
+    split_string_and_collect_vector("remember death");
+    reversed_string("death");
+    reversed_sentence("remember death");
+    reversed_sentence_using_fold("remember death");
 }

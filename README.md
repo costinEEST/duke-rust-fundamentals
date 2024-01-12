@@ -1,3 +1,5 @@
+* Lessons: [week 1](https://github.com/alfredodeza/rust-setup), [week 2](https://github.com/alfredodeza/rust-fundamentals), [week 3](https://github.com/alfredodeza/rust-structs-types-enums/), [week 4](https://github.com/alfredodeza/applied-rust)
+
 # CLI
 
 - `cat /etc/os-release`
@@ -46,10 +48,14 @@
 - Use [`format!`](https://doc.rust-lang.org/std/macro.format.html) when you want to create a [`String`](https://doc.rust-lang.org/std/string/struct.String.html) with formatted text.
 - [`String`](https://doc.rust-lang.org/std/string/struct.String.html) is growable and mutable whereas [`&str`](https://doc.rust-lang.org/std/primitive.str.html) is not.
 - [`String`](https://doc.rust-lang.org/std/string/struct.String.html) is owned by the code that creates it.
+- https://learn.microsoft.com/en-us/training/modules/rust-loop-expressions
+- Use [slices](https://doc.rust-lang.org/std/primitive.slice.html) when: 
+  - you want to borrow a portion of a collection rather than the whole collection.
+  - you want to pass around a reference to a sequence of items without copying them.
+  - you want to access a subset of a collection without copying.
+- Use [vectors](https://doc.rust-lang.org/std/vec/index.html) when:
+  - you need to dynamically grow or shrink your collection.
+  - you need to own the collection and transfer ownership to another scope.
 
-# Schedule 
 
-- [week 1](https://github.com/alfredodeza/rust-setup)
-- [week 2](https://github.com/alfredodeza/rust-fundamentals)
-- [week 3](https://github.com/alfredodeza/rust-structs-types-enums/)
-- [week 4](https://github.com/alfredodeza/applied-rust)
+
