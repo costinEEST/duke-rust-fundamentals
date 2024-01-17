@@ -56,6 +56,13 @@
 - Use [vectors](https://doc.rust-lang.org/std/vec/index.html) when:
   - you need to dynamically grow or shrink your collection.
   - you need to own the collection and transfer ownership to another scope.
+- https://learn.microsoft.com/en-us/training/modules/rust-error-handling
+- Advantages of using an enum (according to Bard):
+  - *Easier to read and understand*: Enums are generally considered to be easier to read and understand than structs, especially for complex data structures. This is because enums use a more declarative style of programming, which can make code more concise and easier to follow.
+  - *More flexible*: Enums can be more flexible than structs in that they can represent a wider range of values. For example, an enum could be used to represent not just byte sizes, but also other types of data, such as colors or shapes.
+- Disadvantages of using an enum (according to Bard):
+  - *Less efficient*: Enums can be slightly less efficient than structs in terms of memory usage and performance. This is because enums store additional information about the variant that is currently being used, which can take up some additional space in memory.
+  - *Less type safety*: Enums are less type-safe than structs in that they do not enforce the same level of consistency between variants. This can make it more difficult to catch errors at compile time.
 
 
 
